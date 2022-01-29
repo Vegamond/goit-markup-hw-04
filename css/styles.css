@@ -539,7 +539,14 @@ p {
     color: var(--accent-color);
 }
 
-.join {}
+.join__item {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.join__item:last-child {
+    margin-right: 0px;
+}
 
 .join__title {
     color: var(--primary-white-color);
@@ -567,11 +574,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-}
-
-.join__link:last-child {
-    margin-right: 0px;
 }
 
 .join__link:hover,
