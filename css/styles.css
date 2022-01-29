@@ -6,6 +6,9 @@
     --secondary-bg-color: #f5f4fa;
     --first-bg-color: #2f303a;
     --footer-address-color: rgba(255, 255, 255, 0.6);
+    --header-logo-dark-color: #000000;
+    --hero-btn-hover-color: #188ce8;
+    --border-color: #eeeeee;
     --hero-gradient: rgba(47, 48, 58, 0.4);
     --primary-icon-color: #afb1b8;
     --secondary-icon-color: rgba(255, 255, 255, 0.1);
