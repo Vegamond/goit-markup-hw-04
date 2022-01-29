@@ -426,10 +426,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social__item {
+    list-style: none;
     margin-right: 10px;
 }
 
-.social__link:last-child {
+.social__item:last-child {
     margin-right: 0px;
 }
 
