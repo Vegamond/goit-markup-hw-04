@@ -552,6 +552,8 @@ p {
 .join__title {
     color: var(--primary-white-color);
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
