@@ -187,7 +187,7 @@ p {
     background-image: linear-gradient( to right, var(--hero-gradient), var(--hero-gradient)), url("../img/hero.jpg");
 }
 
-.hero__container {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -289,18 +289,19 @@ p {
 }
 
 .features__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     background-color: var(--secondary-bg-color);
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 
 .features__icon {
     width: 70px;
     height: 70px;
-    position: relative;
-    top: 25px;
-    left: 100px;
 }
 
 
@@ -395,6 +396,8 @@ p {
 .team__card {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .team__title {
@@ -416,8 +419,6 @@ p {
 
 .social__icon___list {
     display: flex;
-    padding-right: 32px;
-    padding-left: 32px;
 }
 
 .social__link {
